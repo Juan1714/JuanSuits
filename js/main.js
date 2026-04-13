@@ -78,11 +78,10 @@ submitBtn.addEventListener('click', () => {
   submitBtn.textContent = 'Enviando…';
 
   const nombre = fields.nombre.value.trim();
-  const telefono = fields.telefono.value.trim();
   const asunto = fields.asunto.value.trim();
   const mensaje = fields.mensaje.value.trim();
 
-  const texto = `Hola, mi nombre es ${nombre}.%0ATeléfono: ${telefono}%0AAsunto: ${asunto}%0A%0A${mensaje}`;
+  const texto = `Hola, mi nombre es ${nombre}.%0AAsunto: ${asunto}%0A%0A${mensaje}`;
   const numero = '528443062684'; // formato internacional sin +
 
   window.open(`https://wa.me/${numero}?text=${texto}`, '_blank');
