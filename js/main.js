@@ -81,7 +81,7 @@ submitBtn.addEventListener('click', () => {
   const mensaje = fields.mensaje.value.trim();
 
   const texto = `Hola, mi nombre es ${nombre}.%0AAsunto: ${asunto}%0A%0A${mensaje}`;
-  const numero = '528443062684'; // formato internacional sin +
+  const numero = '528442772942'; // formato internacional sin +
 
   window.open(`https://wa.me/${numero}?text=${texto}`, '_blank');
 
