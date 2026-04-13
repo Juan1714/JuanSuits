@@ -50,7 +50,6 @@ const formNote = document.getElementById('formNote');
 
 const fields = {
   nombre: document.getElementById('nombre'),
-  telefono: document.getElementById('telefono'),
   asunto: document.getElementById('asunto'),
   mensaje: document.getElementById('mensaje'),
 };
